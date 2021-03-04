@@ -1,0 +1,14 @@
+            td, th {
+                text-align:center;
+            }
+            td {
+                height: 50px;
+            }
+            .jir {
+                font-weight: bold;
+            } 
+            table {
+                border-collapse: collapse;
+                font-family: Arial;
+                font-weight: 14px;
+            }
