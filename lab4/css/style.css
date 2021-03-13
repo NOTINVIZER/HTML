@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    margin:0px 150px 0px 150px;
+    color:white;
+}
+.text2 h1 ~ p{ 
+    text-indent: 20px;/*Добавляем отступ перед каждым элементом p, которые идут после h1 класса text2*/
+}
+
+.text1, .text2{ 
+    font-family: Arial;/*Делаем шрифт Arial для двух классов, группировка селекторов*/
+}
+
+#text h1{
+    text-indent: 20px;/*Делаем отступ перед заголовками h1, которые находятся внутри #text*/
+    color:orange;/*Красим заголовки h1, которые находятся внутри #text*/
+}
+
+.text1 h1 + p {
+    font-weight: bold;/*Выделяем p жирным, который идет после h1*/
+}
+
+.text1 p > i{
+    color:orange;/*Красим текст тега i, который является дочерним элементом p*/
+}
